@@ -62,7 +62,7 @@ NSString * const kHMediatorParamsKeySwiftTargetModuleName = @"kHMediatorParamsKe
 
 - (id)performTarget:(NSString *)targetName action:(NSString *)actionName params:(NSDictionary *)params shouldCacheTarget:(BOOL)shouldCacheTarget
 {
-    NSString *swiftModuleName = params[kCTMediatorParamsKeySwiftTargetModuleName];
+    NSString *swiftModuleName = params[kHMediatorParamsKeySwiftTargetModuleName];
     
     // generate target
     NSString *targetClassString = nil;

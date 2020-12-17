@@ -5,7 +5,7 @@
 //  Created by helios on 2020/12/16.
 //
 #import <UIKit/UIKit.h>
-extern NSString * const kHMediatorParamsKeySwiftTargetModuleName;
+extern NSString * _Nullable const kHMediatorParamsKeySwiftTargetModuleName;
 
 NS_ASSUME_NONNULL_BEGIN
 
