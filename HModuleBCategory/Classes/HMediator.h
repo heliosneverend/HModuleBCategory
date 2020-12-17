@@ -19,6 +19,8 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)releaseCachedTargetWithTargetName:(NSString *)targetName;
 
 - (UIViewController *)ModuleB_viewControllerWithCallback:(void(^)(NSString *result))callback;
+
+- (UIViewController *)EleInvoice_ViewControllerWithCallback:(void(^)(NSString *result))callback;
 @end
 
 NS_ASSUME_NONNULL_END

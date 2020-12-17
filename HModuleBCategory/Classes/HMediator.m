@@ -203,4 +203,9 @@ NSString * const kHMediatorParamsKeySwiftTargetModuleName = @"kHMediatorParamsKe
     return _cachedTarget;
 }
 
+- (UIViewController *)EleInvoice_ViewControllerWithCallback:(void(^)(NSString *result))callback {
+    NSMutableDictionary *params = [[NSMutableDictionary alloc] init];
+    params[@"callback"] = callback;
+    return [self performTarget:@"EleInvoice" action:@"viewController" params:params shouldCacheTarget:NO];
+}
 @end
